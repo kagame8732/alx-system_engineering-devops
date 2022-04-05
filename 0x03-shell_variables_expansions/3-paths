@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | tr -s ':' ':' | tr ':' '\n' | wc -l
+echo $PATH | tr -s ':' '\n' | wc -l
