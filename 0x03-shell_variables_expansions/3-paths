@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv | tr -s ':' ':' | tr ':' '\n' | wc -l
